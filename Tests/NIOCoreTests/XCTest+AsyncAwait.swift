@@ -39,7 +39,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#if compiler(>=5.5.2) && canImport(_Concurrency)
+#if compiler(>=999) && canImport(_Concurrency)
 import XCTest
 
 extension XCTestCase {

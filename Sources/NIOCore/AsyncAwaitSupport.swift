@@ -18,7 +18,7 @@ public typealias NIOSendable = Swift.Sendable
 public typealias NIOSendable = Any
 #endif
 
-#if compiler(>=5.5.2) && canImport(_Concurrency)
+#if compiler(>=999) && canImport(_Concurrency)
 
 extension EventLoopFuture {
     /// Get the value/error from an `EventLoopFuture` in an `async` context.
